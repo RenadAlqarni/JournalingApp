@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct JournalingAppApp: App {
+struct JournalingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeelingsHistory()
         }
     }
 }

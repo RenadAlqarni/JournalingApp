@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5807E652B3311C900BCBEDD /* JournalingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E642B3311C900BCBEDD /* JournalingAppApp.swift */; };
-		C5807E672B3311C900BCBEDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E662B3311C900BCBEDD /* ContentView.swift */; };
+		C5807E652B3311C900BCBEDD /* JournalingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E642B3311C900BCBEDD /* JournalingApp.swift */; };
 		C5807E692B3311CA00BCBEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5807E682B3311CA00BCBEDD /* Assets.xcassets */; };
 		C5807E6C2B3311CA00BCBEDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5807E6B2B3311CA00BCBEDD /* Preview Assets.xcassets */; };
 		C5807E762B3311CA00BCBEDD /* JournalingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E752B3311CA00BCBEDD /* JournalingAppTests.swift */; };
 		C5807E802B3311CA00BCBEDD /* JournalingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E7F2B3311CA00BCBEDD /* JournalingAppUITests.swift */; };
 		C5807E822B3311CA00BCBEDD /* JournalingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E812B3311CA00BCBEDD /* JournalingAppUITestsLaunchTests.swift */; };
+		C5807E8F2B33120200BCBEDD /* FeelingsHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E8E2B33120200BCBEDD /* FeelingsHistory.swift */; };
+		C5807E912B33121800BCBEDD /* VentingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E902B33121800BCBEDD /* VentingPage.swift */; };
+		C5807E932B3320BE00BCBEDD /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5807E922B3320BD00BCBEDD /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +37,7 @@
 
 /* Begin PBXFileReference section */
 		C5807E612B3311C900BCBEDD /* JournalingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5807E642B3311C900BCBEDD /* JournalingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingAppApp.swift; sourceTree = "<group>"; };
-		C5807E662B3311C900BCBEDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5807E642B3311C900BCBEDD /* JournalingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingApp.swift; sourceTree = "<group>"; };
 		C5807E682B3311CA00BCBEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5807E6B2B3311CA00BCBEDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5807E712B3311CA00BCBEDD /* JournalingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		C5807E7B2B3311CA00BCBEDD /* JournalingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5807E7F2B3311CA00BCBEDD /* JournalingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingAppUITests.swift; sourceTree = "<group>"; };
 		C5807E812B3311CA00BCBEDD /* JournalingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5807E8E2B33120200BCBEDD /* FeelingsHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsHistory.swift; sourceTree = "<group>"; };
+		C5807E902B33121800BCBEDD /* VentingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentingPage.swift; sourceTree = "<group>"; };
+		C5807E922B3320BD00BCBEDD /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		C5807E632B3311C900BCBEDD /* JournalingApp */ = {
 			isa = PBXGroup;
 			children = (
-				C5807E642B3311C900BCBEDD /* JournalingAppApp.swift */,
-				C5807E662B3311C900BCBEDD /* ContentView.swift */,
+				C5807E642B3311C900BCBEDD /* JournalingApp.swift */,
+				C5807E8E2B33120200BCBEDD /* FeelingsHistory.swift */,
+				C5807E922B3320BD00BCBEDD /* Notes.swift */,
+				C5807E902B33121800BCBEDD /* VentingPage.swift */,
 				C5807E682B3311CA00BCBEDD /* Assets.xcassets */,
 				C5807E6A2B3311CA00BCBEDD /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5807E672B3311C900BCBEDD /* ContentView.swift in Sources */,
-				C5807E652B3311C900BCBEDD /* JournalingAppApp.swift in Sources */,
+				C5807E8F2B33120200BCBEDD /* FeelingsHistory.swift in Sources */,
+				C5807E652B3311C900BCBEDD /* JournalingApp.swift in Sources */,
+				C5807E912B33121800BCBEDD /* VentingPage.swift in Sources */,
+				C5807E932B3320BE00BCBEDD /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
